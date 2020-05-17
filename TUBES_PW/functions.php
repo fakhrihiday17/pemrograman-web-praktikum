@@ -2,7 +2,7 @@
 function koneksi(){
 
 
- $conn = mysqli_connect("localhost", "root", "", "film") or die ("Koneksi ke DB gagal!");
+ $conn = mysqli_connect("localhost", "root", "", "pw18159_film") or die ("Koneksi ke DB gagal!");
  mysqli_select_db($conn, "film") ;
 
 
